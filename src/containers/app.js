@@ -76,7 +76,7 @@ export class AppContainer extends Component {
                 <Countdown options={OPTIONS} />
               </div>
             </h2>
-            <p style={{ width: '50px', margin: '10px auto' }}><a target="_blank" href="https://twitter.com/intent/tweet?text=Come%and%20listen%20to%20sounds%20on%20@ASMRSH1">
+            <p style={{ width: '50px', margin: '10px auto' }}><a target="_blank" href="https://twitter.com/intent/tweet?text=Come%20and%20listen%20to%20sounds%20on%20@ASMRSH1">
               <img alt="tweet" style={{ width: '30px', opacity: '0.5' }} src="http://eglx.ca/wp-content/uploads/2016/01/Twitter-icon.png" /></a></p>
           </div>
           <section className={'col-sm-6'} style={{ margin: '0 auto', display: 'none' }}>
