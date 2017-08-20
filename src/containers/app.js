@@ -58,7 +58,7 @@ export class AppContainer extends Component {
     }
 
     return (
-      <div className={'row'} style={{ height: '110vh' }}>
+      <div className={'row'} style={{ height: '100vh' }}>
         <section className={'col-sm-12 text-center container'} style={{ color: '#999' }}>
           <div style={{ marginBottom: '10px', marginTop: '20px', fontFamily: 'Euphoria Script, cursive' }}>
             <p>ASMR.SH</p>
@@ -93,7 +93,7 @@ export class AppContainer extends Component {
             />
           </section>
 
-          <div className={'col-sm-6 col-sm-offset-6 shadow'} style={{ margin: '0px auto', left: '50%', transform: 'translate(-50%, 0)', background: 'rgba(13,8,42,0.6)', borderRadius: '6px', padding: '0px', position: 'fixed', bottom: '0px', borderBottomLeftRadius: '0px', borderBottomRightRadius: '0px' }}>
+          <div className={'col-sm-6 col-sm-offset-6 shadow'} style={{ margin: '0px auto', left: '50%', transform: 'translate(-50%, 0)', background: 'rgba(13,8,42,1)', borderRadius: '6px', padding: '8px', position: 'fixed', bottom: '0px', borderBottomLeftRadius: '0px', borderBottomRightRadius: '0px' }}>
             <div id="mc_embed_signup">
               <form style={{ color: '#999' }} action="//asmr.us16.list-manage.com/subscribe/post?u=d8b01ee10bb4c297f025a9729&amp;id=3d0223a8f6" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" className="validate" target="_blank" noValidate>
                 <div id="mc_embed_signup_scroll">
