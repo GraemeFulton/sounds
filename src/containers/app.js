@@ -2,21 +2,18 @@ import React, { Component } from 'react';
 import Countdown from 'react-count-down'
 import ReactPlayer from 'react-player'
 import SoundCloud from 'react-soundcloud-widget';
-import { Timeline } from 'react-twitter-widgets'
+import { Timeline } from 'react-twitter-widgets';
 
-import {
-  ShareButtons,
-  ShareCounts,
-  generateShareIcon
-} from 'react-share';
 import { connect } from 'react-redux';
 import { loadApp } from 'actions/app';
 import styles from './app.css';
 
 
-const d = new Date();
-d.setTime(d.getTime() + d.getTimezoneOffset()*60*1000 );
-d.setHours(24,0,0,0);
+let d = new Date();
+d.setTime(d.getTime());
+d.setHours(24, 0, 0, 0);
+
+
 const OPTIONS = { endDate: d, prefix: 'for our next pick!' }
 
 type Props = {
@@ -61,7 +58,7 @@ export class AppContainer extends Component {
     }
 
     return (
-      <div className={'row'} style={{ height: '100vh' }}>
+      <div className={'row'} style={{ height: '110vh' }}>
         <section className={'col-sm-12 text-center container'} style={{ color: '#999' }}>
           <div style={{ marginBottom: '10px', marginTop: '20px', fontFamily: 'Euphoria Script, cursive' }}>
             <p>ASMR.SH</p>
