@@ -97,7 +97,7 @@ export class AppContainer extends Component {
             <div id="mc_embed_signup">
               <form style={{ color: '#999' }} action="//asmr.us16.list-manage.com/subscribe/post?u=d8b01ee10bb4c297f025a9729&amp;id=3d0223a8f6" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" className="validate" target="_blank" noValidate>
                 <div id="mc_embed_signup_scroll">
-                  <label htmlFor="mce-EMAIL">🎙 Get the weekly playlist</label>
+                  <label htmlFor="mce-EMAIL" style={{ color: '#7d67ae' }}>🎙 Get the weekly playlist</label>
                   <input type="email" name="EMAIL" className="email" id="mce-EMAIL" placeholder="Enter email address (and listen to your keyboard)" required style={{ background: '#111', color: '#999', borderColor: '#220045' }} />
                   <div style={{ position: 'absolute', left: '-5000px' }} ariaHidden="true">
                     <input type="text" name="b_d8b01ee10bb4c297f025a9729_3d0223a8f6" tabIndex="-1" />
