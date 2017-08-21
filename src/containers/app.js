@@ -96,7 +96,7 @@ export class AppContainer extends Component {
       </section>
     </div>
           <div style={{ width: '100vw', position: 'fixed', bottom: '0px' }}>
-            <div id="mc_embed_signup" className={'shadow'} style={{ background: 'rgba(13,8,42,1)', borderRadius: '6px', padding: '8px', borderBottomLeftRadius: '0px', borderBottomRightRadius: '0px', margin: '0 auto' }}>
+            <div id="mc_embed_signup" className={'shadow col-xs-12 col-md-6'} style={{ background: 'rgba(13,8,42,1)', borderRadius: '6px', padding: '8px', borderBottomLeftRadius: '0px', borderBottomRightRadius: '0px', margin: '0 auto' }}>
               <form style={{ color: '#999' }} action="//asmr.us16.list-manage.com/subscribe/post?u=d8b01ee10bb4c297f025a9729&amp;id=3d0223a8f6" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" className="validate" target="_blank" noValidate>
                 <div id="mc_embed_signup_scroll">
                   <label htmlFor="mce-EMAIL" style={{ color: '#7d67ae' }}>🎙 Get the weekly playlist</label>
