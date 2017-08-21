@@ -58,7 +58,7 @@ export class AppContainer extends Component {
     }
 
     return (
-      <div className={'row'}>
+      <div className={'container'}>
         <section className={'col-sm-12 text-center container'} style={{ color: '#999' }}>
           <div style={{ marginBottom: '10px', marginTop: '20px', fontFamily: 'Euphoria Script, cursive' }}>
             <p>ASMR.SH</p>
