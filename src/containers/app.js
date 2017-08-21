@@ -64,8 +64,8 @@ export class AppContainer extends Component {
           <div style={{ marginBottom: '10px', marginTop: '20px', fontFamily: 'Euphoria Script, cursive' }}>
             <p>ASMR.SH</p>
           </div>
-          <div className={'col-sm-12 text-center'} style={{ opacity: '0.4' }}>
-            <ReactPlayer url={this.state.sound} playing height="290" width="516" style={{ margin: '0 auto' }} />
+          <div className={'text-center'} style={{ opacity: '0.4' }}>
+            <ReactPlayer url={this.state.sound} playing height="290" width="516" style={{ margin: '0 auto', maxWidth: '90%' }} />
           </div>
           <div className={'col-sm-12'} style={{ marginTop:' 20px' }}>
             <h1 style={{ fontFamily: 'Euphoria Script, cursive' }}>Playing Today:&nbsp;
